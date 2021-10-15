@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Chat</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/main.js"></script>
+    <link rel="stylesheet" href="./css/layout.css">
+    
+</head>
+<body>
+    <div class="" id="wrapper">
+        <div >
+            <span id="price-usd"></span>
+            <div class="loginFrom">
+                <!-- Login from -->
+                <div id="loginFrom">
+                    <h3>Nhập Nickname để tham gia!</h3>
+                    <input class="nickName" type="text" id="txtUsername"/>
+                    <!-- <input type="text" id="txtPassword"> -->
+                    <input class="button" type="button" value="Register" id="btnRegister">
+                </div>
+            </div>
+            <!-- Chat from -->
+            <div class="chatForm"  id="chatForm">
+                <div class="leftForm" id="left">
+                    <div id="boxTitle">
+                        <h5>User Online</h5>
+                    </div>  
+                    <div id='boxContent'></div>
+                </div>
+                <div class="rightForm" id="right">
+                    <div id="talking">Hello: <span id="currnetUser">Tam</span>
+                        <input class="button" type="button" id="btnLogout" value="Logout">
+                    </div>
+                    <div id="listMssg"></div>
+                    <div class="sendMssg">
+                        <div id="thongBao"></div>
+                        <input type="text" id="textMssg" placeholder="Nhập nội dung chat" />
+                        <input class="button" type="button" id="btnSenMssg" value="Send" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+</body>
+</html>

@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    font-family: "Helvetica";
+}
+body > div {
+    margin: auto;
+}
+#txtUsername{
+    background-color: transparent; border: solid 1px black;
+}
+.leftForm{
+    float: left;
+    width: 25%;
+    height: auto;
+    padding: 12px 20px;
+    margin-left: 4px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: aliceblue;
+    resize: none;
+    text-align: center;
+}
+.rightForm{
+    float: left;
+    width: 72%;
+    height: auto;
+    padding: 12px 20px;
+    margin-left: 4px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: aliceblue;
+    resize: none;
+    text-align: center;
+}
+
+#boxTitle{
+    border-radius: 4px;
+    border: 2px solid #ccc;  width: 100%;; text-align: center;
+}
+
+#talking{
+    text-align: right;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+#listMssg{
+    height: 100%; background-color: #fff;
+}
+#textMssg{
+    background-color: transparent; border: solid 1px black;
+    margin-right: 2px;
+}
+#currnetUser{
+    font-weight: bold;
+    color: blue;
+}
+
+.button {
+    background-color: #17699a; 
+    border-radius: 4px;
+    color: white;
+    padding: 8px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+input[type=text] {
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 8px 26px;
+    border-radius: 4px;
+}
+.sendMssg{
+    margin-top: 50px;
+}
+#thongBao{
+    text-align: left;
+}
+
+#boxContent{
+    font-weight: bold;
+    color: blue;
+}
+.nickName{
+    margin-top: 8px;
+}
+.sendMssg{
+    display: flex;
+}
+
+.loginFrom{
+    margin-top: 10px;
+}
+/* .price-usd{
+    margin: auto;
+} */
